@@ -1,35 +1,25 @@
-[![Build](https://github.com/uroesch/JoplinPortable/workflows/build-package/badge.svg)](https://github.com/uroesch/JoplinPortable/actions?query=workflow%3Abuild-package)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/JoplinPortable?include_prereleases)](https://github.com/uroesch/JoplinPortable/releases)
-[![Runs on](https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue)](#runtime-dependencies)
-![GitHub All Releases](https://img.shields.io/github/downloads/uroesch/JoplinPortable/total?style=flat)
+[![Build](https://github.com/uroesch/DrawIOPortable/workflows/build-package/badge.svg)](https://github.com/uroesch/DrawIOPortable/actions?query=workflow%3Abuild-package)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/DrawIOPortable?include_prereleases)](https://github.com/uroesch/DrawIOPortable/releases)
+[![Runs on](https://img.shields.io/badge/runs%20on-Win64-blue)](#runtime-dependencies)
+![GitHub All Releases](https://img.shields.io/github/downloads/uroesch/DrawIOPortable/total?style=flat)
 
-# Joplin Portable for PortableApps.com
+# draw.io Portable for PortableApps.com
 
 <img src="App/AppInfo/appicon_128.png" align="left">
 
-[Joplin](https://joplinapp.org/) is a free, open source note taking
-and to-do application, which can handle a large number of notes
-organised into notebooks.  The notes are searchable, can be copied,
-tagged and modified either from the applications directly or from
-your own text editor. The notes are in Markdown format.
+[draw.io Desktop](https://draw.io/) is designed to be 
+completely isolated from the Internet. All JavaScript 
+files are self-contained, the Content Security Policy 
+forbids running remotely loaded JavaScript.
 
-Notes exported from Evernote via .enex files can be imported into Joplin,
-including the formatted content (which is converted to Markdown), resources
-(images, attachments, etc.) and complete metadata (geolocation, updated time,
-created time, etc.). Plain Markdown files can also be imported.
-
-The notes can be synchronised with various cloud services including Nextcloud,
-Dropbox, OneDrive, WebDAV or the file system (for example with a network
-directory). When synchronising the notes, notebooks, tags and other metadata
-are saved to plain text files which can be easily inspected, backed up and
-moved around.
-
-The application is available for Windows, Linux, macOS, Android and iOS (the 
-terminal app also works on FreeBSD). A Web Clipper, to save web pages and 
-screenshots from your browser, is also available for Firefox and Chrome.
+No diagram data is ever sent externally, nor do we send
+any analytics about app usage externally. This means 
+certain functionality for which we do not have a JavaScript
+implementation do not work in the Desktop build, namely 
+.vsd and Gliffy import.
 
 ## Runtime dependencies
-* 32-bit or 64-bit version of Windows.
+* 64-bit version of Windows.
 
 ## Support matrix
 
@@ -37,22 +27,21 @@ screenshots from your browser, is also available for Firefox and Chrome.
 |-----------------|:------------------:|:-------------------:|
 | Windows XP      | ![ns][ns]          | ![ns][ns]           | 
 | Windows Vista   | ![ns][ns]          | ![ns][ns]           | 
-| Windows 7       | ![fs][fs]          | ![ps][ps]           |  
-| Windows 8       | ![ps][ps]          | ![ps][ps]           |  
-| Windows 10      | ![fs][fs]          | ![fs][fs]           |
+| Windows 7       | ![ns][ns]          | ![ps][ps]           |  
+| Windows 8       | ![ns][ns]          | ![ps][ps]           |  
+| Windows 10      | ![ns][ns]          | ![fs][fs]           |
 
 Legend: ![ns][ns] not supported;  ![nd][nd] no data; ![ps][ps] supported but not verified; ![fs][fs] verified;
 
 ## Status 
-This PortableApps project is in beta stage. 
+This PortableApps project is in beta stage.
 
 ## Todo
 - [ ] Documentation
-- [ ] Icons are showing a black background instead of being transparent
 
 ## Disclaimer
-Joplin is already Portable right from the bat. This wrapper does only segrate 
-the data into the PortableApps `Data` directory.
+Draw.io is already Portable right from the bat. This is
+only a convenience wrapper for the PortableApps platform.
 
 ## Build
 
