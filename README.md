@@ -27,7 +27,7 @@ implementation do not work in the Desktop build, namely
 |-----------------|:------------------:|:-------------------:|
 | Windows XP      | ![ns][ns]          | ![ns][ns]           | 
 | Windows Vista   | ![ns][ns]          | ![ns][ns]           | 
-| Windows 7       | ![ns][ns]          | ![ps][ps]           |  
+| Windows 7       | ![ns][ns]          | ![fs][fs]           |  
 | Windows 8       | ![ns][ns]          | ![ps][ps]           |  
 | Windows 10      | ![ns][ns]          | ![fs][fs]           |
 
