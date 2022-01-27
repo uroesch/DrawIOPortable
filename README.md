@@ -25,8 +25,8 @@ implementation do not work in the Desktop build, namely
 
 | OS              | 32-bit             | 64-bit              | 
 |-----------------|:------------------:|:-------------------:|
-| ReactOS 0.4.14  | ![nd][nd]          | ![nd][nd]           |
-| ReactOS 0.4.15  | ![nd][nd]          | ![nd][nd]           |
+| ReactOS 0.4.14  | ![ns][ns]          | ![na][na]           |
+| ReactOS 0.4.15  | ![ns][ns]          | ![nd][nd]           |
 | Windows XP      | ![ns][ns]          | ![ns][ns]           | 
 | Windows Vista   | ![ns][ns]          | ![ns][ns]           | 
 | Windows 7       | ![ns][ns]          | ![fs][fs]           |  
