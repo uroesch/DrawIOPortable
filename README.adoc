@@ -42,7 +42,6 @@ image:{shields-url}?include_prereleases[
 ]
 <<runtime-dependencies,
   image:https://img.shields.io/badge/runs%20on-Win64-blue[Runs on]>>
-
 image:https://img.shields.io/github/downloads/{git-user}/{app-name}/total[
   title="GitHub All Release Downloads"
 ]
